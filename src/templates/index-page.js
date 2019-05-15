@@ -6,6 +6,13 @@ import Layout from '../components/Layout'
 import HeroBrandingElement from '../img/branding/brand-element.svg'
 import ZerotoOne from '../img/branding/0-to-1.svg'
 import TheProcess from '../img/branding/the-process.svg'
+import AqwireLogo from '../img/aqwire.svg'
+import AqwireThumbnail from '../img/aqwire-thumbnail.png'
+import CoinDashbLogo from '../img/coindash.svg'
+import CoindashThumbnail from '../img/coindash-thumbnail.png'
+import LeafListLogo from '../img/leaflist.png'
+import LeafListThumbnail from '../img/leaflist-thumbnail.png'
+
 
 export const IndexPageTemplate = ({
   image,
@@ -31,7 +38,12 @@ export const IndexPageTemplate = ({
               <h2 className="subtitle is-size-4">
                 by turning it into to usable product.
               </h2>
-              <button className="button is-primary is-medium">Submit</button>
+              <button className="button is-primary is-medium">
+                Let's Chat
+                <span class="icon is-small">
+                  <i class="fas fa-times"></i>
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -73,60 +85,63 @@ export const IndexPageTemplate = ({
 
           <div className="columns">
             <div className="column is-6">
-              <div className="card">
+              <div className="cofound-card card">
                 <div className="card-image">
                   <figure className="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
+                    <img src={AqwireThumbnail} alt="Placeholder image" />
                   </figure>
                 </div>
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
-                      <figure className="image is-48x48">
-                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+                      <figure className="image">
+                        <img src={AqwireLogo} alt="Placeholder image" />
                       </figure>
                     </div>
-                    <div className="media-content">
-                      <p className="title is-4">John Smith</p>
-                      <p className="subtitle is-6">@johnsmith</p>
-                    </div>
                   </div>
-
-                  <div className="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
-                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                  </div>
+                  <div className="content">Property Marketplace powered by Blockchain.</div>
                 </div>
               </div>
             </div>
+
             <div className="column is-6">
-              <div className="card">
+              <div className="cofound-card card">
                 <div className="card-image">
                   <figure className="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
+                    <img src={CoindashThumbnail} alt="Placeholder image" />
                   </figure>
                 </div>
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
-                      <figure className="image is-48x48">
-                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+                      <figure className="image">
+                        <img src={CoinDashbLogo} alt="Placeholder image" />
                       </figure>
                     </div>
-                    <div className="media-content">
-                      <p className="title is-4">John Smith</p>
-                      <p className="subtitle is-6">@johnsmith</p>
+                  </div>
+                  <div className="content">Property Marketplace powered by Blockchain.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="columns">
+            <div className="column is-6">
+              <div className="cofound-card card">
+                <div className="card-image">
+                  <figure className="image is-4by3">
+                    <img src={LeafListThumbnail} alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div className="card-content">
+                  <div className="media">
+                    <div className="media-left">
+                      <figure className="image">
+                        <img src={LeafListLogo} alt="Placeholder image" />
+                      </figure>
                     </div>
                   </div>
-
-                  <div className="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
-                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                  </div>
+                  <div className="content">Property Marketplace powered by Blockchain.</div>
                 </div>
               </div>
             </div>
@@ -165,15 +180,49 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    <section className="hero is-large">
+    <section className="hero is-primary is-medium">
       <div className="hero-body">
-        <div className="container">
-          <h1 className="title">
+        <div className="container is-fluid">
+          <h1 className="title is-size-1">
             Let's Chat
           </h1>
-          <h2 className="subtitle">
+          <h2 className="subtitle is-size-4">
             This is based from our combined experience.
           </h2>
+
+          <form>
+            <div className="field">
+              <div className="control">
+                <input className="input is-large" type="text" placeholder="Name" />
+              </div>
+            </div>
+            <div className="field">
+              <div className="control">
+                <input className="input is-large" type="text" placeholder="Company" />
+              </div>
+            </div>
+            <div className="field">
+              <div className="control">
+                <input className="input is-large" type="text" placeholder="Email" />
+              </div>
+            </div>
+            <div className="field">
+              <div className="control">
+                <input className="input is-large" type="text" placeholder="Mobile" />
+              </div>
+            </div>
+            <div className="field">
+              <div className="control">
+                <textarea className="textarea" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <button className="button is-light is-medium">
+              Let's Chat
+              <span class="icon is-small">
+                <i class="fas fa-times"></i>
+              </span>
+            </button>
+          </form>
         </div>
       </div>
     </section>
