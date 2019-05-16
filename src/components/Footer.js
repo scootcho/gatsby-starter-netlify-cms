@@ -21,8 +21,12 @@ const Footer = class extends React.Component {
                       alt="Kaldi"
                     />
                 </div>
+                <p>
+                  <br />
+                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.
+                </p>
               </div>
-              <div className="column is-4">
+              <div className="column is-4 is-offset-4">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
@@ -43,22 +47,6 @@ const Footer = class extends React.Component {
                     <li>
                       <Link className="navbar-item" to="/contact/examples">
                         What we offer
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
                       </Link>
                     </li>
                   </ul>

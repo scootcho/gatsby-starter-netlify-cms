@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -9,6 +10,33 @@ $primary: $cofound-blue
 $primary-invert: $cofound-blue-invert
 $body-color: #333
 $black: #2b2523
+
+$body-family: 'IBM Plex Sans', sans-serif;
+$weight-semibold: 500;
+$radius: 0px;
+
+
+.hero .title
+  font-weight: $weight-semibold;
+  font-size: 3.5rem;
+  color: $cofound-blue;
+
+.hero .subtitle
+  margin-bottom: 40px !important;
+
+.title:not(.is-spaced) + .subtitle
+  font-weight: $weight-light;
+  margin-top: -0.5rem !important;
+
+
+.button.cofound-btn
+  font-size: 1rem !important;
+  font-weight: 700;
+  padding: 4px 24px;
+  height: 56px;
+
+.button.is-primary span
+  margin-left: 16px;
 
 .navbar .navbar-menu
   box-shadow:none !important

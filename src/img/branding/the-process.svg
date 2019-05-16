@@ -1,17 +1,17 @@
 <svg width="640" height="669" viewBox="0 0 640 669" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="64" width="830" height="669" fill="#E2E4EB"/>
 <rect y="64" width="639" height="541" fill="#091637"/>
+<path d="M279 360C279 340.67 294.67 325 314 325C328.106 325 340.411 333.715 345.951 345.738" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10"/>
+<path d="M348.73 325L345.951 345.738L325.215 342.959" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M349 360C349 379.33 333.33 395 314 395C299.894 395 287.589 386.285 282.049 374.262" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10"/>
+<path d="M279.27 395L282.049 374.263L302.785 377.041" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
 <g clip-path="url(#clip0)">
-<path d="M283.243 370.171V315H329.537M283.243 370.171L268 357.911M283.243 370.171L298.486 357.911" stroke="#BBBDC1" stroke-width="6"/>
-<path d="M345.294 347V403.232H299M345.294 347L360.537 359.496M345.294 347L330.051 359.496" stroke="#BBBDC1" stroke-width="6"/>
-</g>
-<g clip-path="url(#clip1)">
-<path d="M522.328 321.078L549.81 348.559" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10"/>
-<path d="M511.552 327.057C503.288 323.465 493.994 323.03 485.43 325.834C476.867 328.637 469.63 334.484 465.09 342.267L480.931 358.109" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10"/>
-<path d="M543.852 359.242C547.51 367.519 547.99 376.854 545.2 385.463C542.411 394.072 536.548 401.351 528.731 405.911L512.824 390.004" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10"/>
-<path d="M500.179 396.962L474.038 370.821C474.038 370.821 496.367 315.276 559 312C555.46 374.36 500.179 396.962 500.179 396.962Z" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
-<path d="M514.172 367.173C519.886 367.173 524.517 362.541 524.517 356.828C524.517 351.114 519.886 346.483 514.172 346.483C508.459 346.483 503.828 351.114 503.828 356.828C503.828 362.541 508.459 367.173 514.172 367.173Z" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
-<path d="M465.478 390.892C467.418 388.951 470.049 387.861 472.793 387.861C475.537 387.861 478.168 388.951 480.109 390.892C482.049 392.832 483.139 395.463 483.139 398.207C483.139 400.951 482.049 403.582 480.109 405.523C474.936 410.695 459 412 459 412C459 412 460.305 396.064 465.478 390.892Z" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M523 327L547 351" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10"/>
+<path d="M512 331.773C504.708 328.508 496.506 328.112 488.95 330.661C481.393 333.209 475.006 338.524 471 345.6L484.979 360" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10"/>
+<path d="M542.151 361C545.469 368.449 545.905 376.85 543.374 384.598C540.844 392.345 535.524 398.897 528.432 403L514 388.685" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10"/>
+<path d="M502.692 395L479 371.308C479 371.308 499.237 320.969 556 318C552.792 374.516 502.692 395 502.692 395Z" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M515.5 368C520.747 368 525 363.747 525 358.5C525 353.253 520.747 349 515.5 349C510.253 349 506 353.253 506 358.5C506 363.747 510.253 368 515.5 368Z" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M470.904 389.762C472.672 387.993 475.07 387 477.571 387C480.072 387 482.47 387.993 484.238 389.762C486.007 391.53 487 393.928 487 396.429C487 398.93 486.007 401.328 484.238 403.096C479.524 407.81 465 409 465 409C465 409 466.19 394.476 470.904 389.762Z" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
 </g>
 <path d="M146.812 326.875V386.5" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
 <path d="M130.25 326.875H163.375" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
@@ -27,9 +27,6 @@
 <path d="M110.375 310.312H70.625V409.688H110.375V310.312Z" stroke="#BBBDC1" stroke-width="6" stroke-miterlimit="10" stroke-linecap="square"/>
 <defs>
 <clipPath id="clip0">
-<rect width="92.5366" height="96.2317" fill="white" transform="translate(268 310)"/>
-</clipPath>
-<clipPath id="clip1">
 <rect width="100" height="100" fill="white" transform="translate(459 312)"/>
 </clipPath>
 </defs>

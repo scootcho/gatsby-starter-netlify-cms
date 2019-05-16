@@ -24,7 +24,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <section className="hero is-medium">
+    <section className="hero is-medium" id="hero">
       <div className="hero-brand-element"> 
         <img src={HeroBrandingElement} /> 
       </div>
@@ -32,17 +32,14 @@ export const IndexPageTemplate = ({
         <div className="container is-fluid">
           <div className="columns">
             <div className="column is-6">
-              <h1 className="title is-size-1">
+              <h1 className="title">
                 We exist to help you build your idea. 
               </h1>
               <h2 className="subtitle is-size-4">
                 by turning it into to usable product.
               </h2>
-              <button className="button is-primary is-medium">
-                Let's Chat
-                <span class="icon is-small">
-                  <i class="fas fa-times"></i>
-                </span>
+              <button className="button is-primary cofound-btn is-large" to="#lets-chat">
+                Let's have a chat <span>⟶</span>
               </button>
             </div>
           </div>
@@ -50,7 +47,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    <section className="hero is-large">
+    <section className="hero is-large" id="why-we-build">
       <div className="zero-to-one-element"> 
         <img src={ZerotoOne} /> 
       </div>
@@ -73,7 +70,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    <section className="hero">
+    <section className="hero" id="our-works">
       <div className="hero-body">
         <div className="container">
           <h1 className="title is-size-1">
@@ -150,7 +147,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    <section className="hero is-medium">
+    <section className="hero is-medium" id="what-we-offer">
       <div className="hero-brand-element"> 
         <img src={TheProcess} /> 
       </div>
@@ -164,7 +161,7 @@ export const IndexPageTemplate = ({
               <h2 className="subtitle is-size-4">
                 Let us know what you need.
               </h2>
-              <ul>
+              <ul className="is-size-4">
                 <li>User Interface Design</li>
                 <li>Interactive Design</li>
                 <li>UX Prototyping</li>
@@ -180,7 +177,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
 
-    <section className="hero is-primary is-medium">
+    <section className="hero is-primary is-medium" id="lets-chat">
       <div className="hero-body">
         <div className="container is-fluid">
           <h1 className="title is-size-1">
@@ -193,22 +190,22 @@ export const IndexPageTemplate = ({
           <form>
             <div className="field">
               <div className="control">
-                <input className="input is-large" type="text" placeholder="Name" />
+                <input className="input" type="text" placeholder="Name" />
               </div>
             </div>
             <div className="field">
               <div className="control">
-                <input className="input is-large" type="text" placeholder="Company" />
+                <input className="input" type="text" placeholder="Company" />
               </div>
             </div>
             <div className="field">
               <div className="control">
-                <input className="input is-large" type="text" placeholder="Email" />
+                <input className="input" type="text" placeholder="Email" />
               </div>
             </div>
             <div className="field">
               <div className="control">
-                <input className="input is-large" type="text" placeholder="Mobile" />
+                <input className="input" type="text" placeholder="Mobile" />
               </div>
             </div>
             <div className="field">
@@ -216,11 +213,8 @@ export const IndexPageTemplate = ({
                 <textarea className="textarea" placeholder="Message"></textarea>
               </div>
             </div>
-            <button className="button is-light is-medium">
+            <button className="button is-light cofound-btn is-medium">
               Let's Chat
-              <span class="icon is-small">
-                <i class="fas fa-times"></i>
-              </span>
             </button>
           </form>
         </div>
