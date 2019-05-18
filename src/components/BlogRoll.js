@@ -37,7 +37,7 @@ class BlogRoll extends React.Component {
                         </figure>
                     </div>
                     </div>
-                    <div className="content">Property Marketplace powered by Blockchain.</div>
+                    <div className="content">{post.frontmatter.description}</div>
                 </div>
               </div>
               </Link>
@@ -73,6 +73,7 @@ export default () => (
               }
               frontmatter {
                 title
+                description
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
