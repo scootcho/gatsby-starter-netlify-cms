@@ -126,9 +126,9 @@ export const IndexPageTemplate = ({
           <h2 className="subtitle is-size-4">
             Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
           </h2>
-          <Link to="#lets-chat" className="button is-light cofound-btn is-large" to="#lets-chat">
+          <a href="mailto:hello@cofoundlab.com" className="button is-light cofound-btn is-large">
             Email us at hello@cofoundlab.com
-          </Link>
+          </a>
         </div>
       </div>
     </section>
