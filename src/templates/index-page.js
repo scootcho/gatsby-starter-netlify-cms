@@ -83,65 +83,6 @@ export const IndexPageTemplate = ({
         </div>
         <div className="container">
           <BlogRoll />
-          <div className="columns is-multiline">
-            <div className="column is-6">
-              <div className="cofound-card card">
-                <div className="card-image">
-                  <figure className="image is-4by3">
-                    <img src={AqwireThumbnail} alt="Placeholder image" />
-                  </figure>
-                </div>
-                <div className="card-content">
-                  <div className="media">
-                    <div className="media-left">
-                      <figure className="image">
-                        <img src={AqwireLogo} alt="Placeholder image" />
-                      </figure>
-                    </div>
-                  </div>
-                  <div className="content">Property Marketplace powered by Blockchain.</div>
-                </div>
-              </div>
-            </div>
-            <div className="column is-6">
-              <div className="cofound-card card">
-                <div className="card-image">
-                  <figure className="image is-4by3">
-                    <img src={CoindashThumbnail} alt="Placeholder image" />
-                  </figure>
-                </div>
-                <div className="card-content">
-                  <div className="media">
-                    <div className="media-left">
-                      <figure className="image">
-                        <img src={CoinDashbLogo} alt="Placeholder image" />
-                      </figure>
-                    </div>
-                  </div>
-                  <div className="content">Property Marketplace powered by Blockchain.</div>
-                </div>
-              </div>
-            </div>
-            <div className="column is-6">
-              <div className="cofound-card card">
-                <div className="card-image">
-                  <figure className="image is-4by3">
-                    <img src={LeafListThumbnail} alt="Placeholder image" />
-                  </figure>
-                </div>
-                <div className="card-content">
-                  <div className="media">
-                    <div className="media-left">
-                      <figure className="image">
-                        <img src={LeafListLogo} alt="Placeholder image" />
-                      </figure>
-                    </div>
-                  </div>
-                  <div className="content">Property Marketplace powered by Blockchain.</div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
