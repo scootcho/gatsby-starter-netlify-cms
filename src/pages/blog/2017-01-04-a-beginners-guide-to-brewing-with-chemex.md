@@ -4,7 +4,7 @@ title: CoinDash
 date: 2017-01-04T15:04:10.000Z
 description: 'Crypto asset tracking, management & bookkeeping'
 featuredpost: false
-featuredimage: /img/blog-index.jpg
+featuredimage: /img/coindash-thumbnail.png
 tags:
   - brewing
   - chemex
