@@ -9,7 +9,7 @@ tags:
   - blockchain
   - full-stack
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![flavor wheel](/img/aqwire-thumbnail.png)
 
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
 
