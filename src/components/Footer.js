@@ -12,7 +12,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer">
         <div className="content">
-          <div className="container is-fluid">
+          <div className="container">
             <div className="columns">
               <div className="column is-4">
                 <div className="logo">

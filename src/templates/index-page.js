@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import BlogRoll from '../components/BlogRoll'
 import HeroBrandingElement from '../img/branding/brand-element.svg'
 import ZerotoOne from '../img/branding/0-to-1.svg'
 import TheProcess from '../img/branding/the-process.svg'
@@ -29,7 +30,7 @@ export const IndexPageTemplate = ({
         <img src={HeroBrandingElement} /> 
       </div>
       <div className="hero-body">
-        <div className="container is-fluid">
+        <div className="container">
           <div className="columns">
             <div className="column is-6">
               <h1 className="title">
@@ -38,9 +39,9 @@ export const IndexPageTemplate = ({
               <h2 className="subtitle is-size-4">
                 by turning it into to usable product.
               </h2>
-              <button className="button is-primary cofound-btn is-large" to="#lets-chat">
+              <Link to="#lets-chat" className="button is-primary cofound-btn is-large" to="#lets-chat">
                 Let's have a chat <span>⟶</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -52,7 +53,7 @@ export const IndexPageTemplate = ({
         <img src={ZerotoOne} /> 
       </div>
       <div className="hero-body">
-        <div className="container is-fluid">
+        <div className="container">
           <div className="columns">
             <div className="column is-6 is-offset-6">
               <h1 className="title is-size-1">
@@ -79,8 +80,10 @@ export const IndexPageTemplate = ({
           <h2 className="subtitle is-size-4">
             This is based from our combined experience.
           </h2>
-
-          <div className="columns">
+        </div>
+        <div className="container">
+          <BlogRoll />
+          <div className="columns is-multiline">
             <div className="column is-6">
               <div className="cofound-card card">
                 <div className="card-image">
@@ -100,7 +103,6 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
             </div>
-
             <div className="column is-6">
               <div className="cofound-card card">
                 <div className="card-image">
@@ -120,9 +122,6 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="columns">
             <div className="column is-6">
               <div className="cofound-card card">
                 <div className="card-image">
@@ -152,7 +151,7 @@ export const IndexPageTemplate = ({
         <img src={TheProcess} /> 
       </div>
       <div className="hero-body">
-        <div className="container is-fluid">
+        <div className="container">
           <div className="columns">
             <div className="column is-6">
               <h1 className="title is-size-1">
@@ -179,44 +178,16 @@ export const IndexPageTemplate = ({
 
     <section className="hero is-primary is-medium" id="lets-chat">
       <div className="hero-body">
-        <div className="container is-fluid">
+        <div className="container">
           <h1 className="title is-size-1">
             Let's Chat
           </h1>
           <h2 className="subtitle is-size-4">
-            This is based from our combined experience.
+            Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
           </h2>
-
-          <form>
-            <div className="field">
-              <div className="control">
-                <input className="input" type="text" placeholder="Name" />
-              </div>
-            </div>
-            <div className="field">
-              <div className="control">
-                <input className="input" type="text" placeholder="Company" />
-              </div>
-            </div>
-            <div className="field">
-              <div className="control">
-                <input className="input" type="text" placeholder="Email" />
-              </div>
-            </div>
-            <div className="field">
-              <div className="control">
-                <input className="input" type="text" placeholder="Mobile" />
-              </div>
-            </div>
-            <div className="field">
-              <div className="control">
-                <textarea className="textarea" placeholder="Message"></textarea>
-              </div>
-            </div>
-            <button className="button is-light cofound-btn is-medium">
-              Let's Chat
-            </button>
-          </form>
+          <Link to="#lets-chat" className="button is-light cofound-btn is-large" to="#lets-chat">
+            Email us at hello@cofoundlab.com
+          </Link>
         </div>
       </div>
     </section>
