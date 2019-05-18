@@ -4,7 +4,7 @@ title: AQWIRE
 date: 2016-12-17T15:04:10.000Z
 description: Property Marketplace powered by Blockchain.
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/aqwire-thumbnail.png
 tags:
   - blockchain
   - full-stack
