@@ -32,9 +32,7 @@ class BlogRoll extends React.Component {
                 <div className="card-content">
                     <div className="media">
                     <div className="media-left">
-                        <figure className="image">
-                          <img src={AqwireLogo} alt="Placeholder image" />
-                        </figure>
+                        <h2 className="is-size-3">{post.frontmatter.title}</h2>
                     </div>
                     </div>
                     <div className="content">{post.frontmatter.description}</div>
