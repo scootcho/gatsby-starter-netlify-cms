@@ -26,7 +26,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <section className="hero is-medium" id="hero">
-      <div className="hero-brand-element"> 
+      <div className="hero-brand-element is-hidden-mobile	is-hidden-tablet-only"> 
         <img src={HeroBrandingElement} /> 
       </div>
       <div className="hero-body">
@@ -49,7 +49,7 @@ export const IndexPageTemplate = ({
     </section>
 
     <section className="hero is-large" id="why-we-build">
-      <div className="zero-to-one-element"> 
+      <div className="zero-to-one-element is-hidden-mobile	is-hidden-tablet-only"> 
         <img src={ZerotoOne} /> 
       </div>
       <div className="hero-body">
@@ -88,7 +88,7 @@ export const IndexPageTemplate = ({
     </section>
 
     <section className="hero is-medium" id="what-we-offer">
-      <div className="hero-brand-element"> 
+      <div className="hero-brand-element is-hidden-mobile	is-hidden-tablet-only"> 
         <img src={TheProcess} /> 
       </div>
       <div className="hero-body">
