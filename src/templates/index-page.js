@@ -49,7 +49,7 @@ export const IndexPageTemplate = ({
     </section>
 
     <section className="hero is-large" id="why-we-build">
-      <div className="zero-to-one-element is-hidden-mobile	is-hidden-tablet-only"> 
+      <div className="zero-to-one-element is-hidden-mobile is-hidden-tablet-only"> 
         <img src={ZerotoOne} /> 
       </div>
       <div className="hero-body">

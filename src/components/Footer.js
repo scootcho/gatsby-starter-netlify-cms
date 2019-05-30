@@ -21,13 +21,12 @@ const Footer = class extends React.Component {
                       alt="Kaldi"
                     />
                 </div>
-                <p>
-                  <br />
+                <p className="cofound-description">
                   Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.
                 </p>
               </div>
               <div className="column is-4 is-offset-4">
-                <section className="menu">
+                <section className="menu is-hidden-mobile is-hidden-tablet-only">
                   <ul className="menu-list">
                     <li>
                       <Link to="/" className="navbar-item">
