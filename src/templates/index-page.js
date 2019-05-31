@@ -34,10 +34,10 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-6">
               <h1 className="title">
-                We exist to help you build your idea. 
+                Build awesome products your customers will love.
               </h1>
               <h2 className="subtitle is-size-4">
-                by turning it into to usable product.
+                Idea > Learn > Build > Launch
               </h2>
               <Link to="#lets-chat" className="button is-primary cofound-btn is-large" to="#lets-chat">
                 Let's have a chat <span>⟶</span>
@@ -57,13 +57,13 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-6 is-offset-6">
               <h1 className="title is-size-1">
-                We feel you. 
+                We understand how difficult it is to launch a usable product
               </h1>
               <h2 className="subtitle is-size-4">
-                That’s why we build.
+                That’s why we made cofoundlab.
               </h2>
               <p className="is-size-6">
-                Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                We extrapolated the process we've used in our prior startup experiences to help entrepreneurs, companies, and stakeholders to identify mission critical values and translate them into actionable insights to help them craft products that will be loved.
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ export const IndexPageTemplate = ({
             Our Works.
           </h1>
           <h2 className="subtitle is-size-4">
-            This is based from our combined experience.
+            These are some projects we have worked on previously.
           </h2>
         </div>
         <div className="container">
@@ -121,10 +121,10 @@ export const IndexPageTemplate = ({
       <div className="hero-body">
         <div className="container">
           <h1 className="title is-size-1">
-            Let's Chat
+            Get in touch!
           </h1>
           <h2 className="subtitle is-size-4">
-            Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+            Whether you want to bring your idea to life or want to rework your existing product to provide that awesome experience, we got you covered!
           </h2>
           <a href="mailto:hello@cofoundlab.com" className="button is-light cofound-btn is-large">
             Email us at hello@cofoundlab.com
