@@ -33,7 +33,7 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-6">
-              <h1 className="title">
+              <h1 className="title is-size-3-mobile is-size-1-tablet">
                 Build awesome products your customers will love.
               </h1>
               <h2 className="subtitle is-size-4">
@@ -56,7 +56,7 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-6 is-offset-6">
-              <h1 className="title is-size-1">
+              <h1 className="title is-size-1 is-size-3-mobile is-size-1-tablet">
                 We understand how difficult it is to launch a usable product
               </h1>
               <h2 className="subtitle is-size-4">
@@ -74,7 +74,7 @@ export const IndexPageTemplate = ({
     <section className="hero" id="our-works">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title is-size-1">
+          <h1 className="title is-size-1 is-size-3-mobile is-size-1-tablet">
             Our Works.
           </h1>
           <h2 className="subtitle is-size-4">
@@ -95,13 +95,13 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-6">
-              <h1 className="title is-size-1">
+              <h1 className="title is-size-1 is-size-3-mobile is-size-1-tablet">
                 What we offer.
               </h1>
               <h2 className="subtitle is-size-4">
                 Let us know what you need.
               </h2>
-              <ul className="is-size-4">
+              <ul className="is-size-4 is-size-6-mobile is-size-5-tablet">
                 <li>User Interface Design</li>
                 <li>Interactive Design</li>
                 <li>UX Prototyping</li>
@@ -120,10 +120,10 @@ export const IndexPageTemplate = ({
     <section className="hero is-primary is-medium" id="lets-chat">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title is-size-1">
+          <h1 className="title is-size-1 is-size-3-mobile is-size-1-tablet">
             Get in touch!
           </h1>
-          <h2 className="subtitle is-size-4">
+          <h2 className="subtitle iis-size-6-mobile is-size-5-tablet">
             Whether you want to bring your idea to life or want to rework your existing product to provide that awesome experience, we got you covered!
           </h2>
           <a href="mailto:hello@cofoundlab.com" className="button is-light cofound-btn is-large">

@@ -171,6 +171,16 @@ $menu-label-color: $white-ter
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;
 
+  section.hero
+    padding: 96px 0;
+
+  .navbar .navbar-menu
+    background: $cofound-blue;
+
+  .navbar .navbar-item
+    padding: 2rem 1rem;
+    color: #ffffff;
+
 +mobile
   .blog-list-item header
     display: block
@@ -179,11 +189,22 @@ $menu-label-color: $white-ter
     max-width: 70%;
     margin: 0 0 1em;
 
+  section.hero
+    padding: 80px 0;
+
+  .navbar .navbar-menu
+    background: $cofound-blue;
+
+  .navbar .navbar-item
+    padding: 2rem 1rem;
+    color: #ffffff;
 
 // Landing Page
-
 section.hero
-  padding: 80px 0;
+  padding: 48px 0;
+
+section.hero:first-child
+  padding: 148px 0 80px;
 
 .hero-brand-element
   position: absolute;
@@ -213,7 +234,6 @@ section.hero
 .cofound-card h2
   font-weight: 500;
 
-
 .cofound-blog
   background: $cofound-blue;
 
@@ -222,3 +242,10 @@ section.hero
 
 .cofound-blog .title
   color: #ffffff;
+
+.navbar .navbar-brand
+  align-items: center;
+  justify-content: center;
+
+.navbar .navbar-burger
+  margin-right: 1rem;
