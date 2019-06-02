@@ -34,7 +34,7 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-6">
               <h1 className="title is-size-3-mobile is-size-1-tablet">
-                Build awesome products your customers will love.
+                Build awesome products your customers love.
               </h1>
               <h2 className="subtitle is-size-4">
                 Idea > Learn > Build > Launch
